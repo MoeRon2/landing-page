@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+.header {
+    margin: 0;
+    background-color: #1f2937 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;   
+    color: #f9faf8;
+}
+
+.headerLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.headerLinks a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
