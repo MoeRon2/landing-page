@@ -1,10 +1,15 @@
 body {
     font-family: Roboto;
     margin: 0;
+    background-color: #1f2937 ;
+    display: flex;
+    flex-direction: column;
 }
+
+
+/* First part */ 
 .header {
     margin: 0;
-    background-color: #1f2937 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,14 +20,64 @@ body {
     color: #f9faf8;
 }
 
-.headerLinks {
+.header-links {
     list-style-type: none;
     display: flex;
     gap: 20px;
 }
 
-.headerLinks a {
+.header-links a {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
+}
+
+/* First part */ 
+
+
+
+
+/* Second part */
+
+.hero-body {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: -30px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18 px;
+    color: #e5e7eb;
+    border-radius: 5px;
+    border-color: #3882f6;
+    height: 40px;
+    width: 80px;
+    font-weight: 800;
 }
