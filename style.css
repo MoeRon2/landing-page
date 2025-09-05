@@ -85,7 +85,8 @@ button {
 
 .hero {
     background-color: #1f2937;
-    flex: 1 1 0;
+    justify-content: center;
+    gap: 0px;
 }
 
 /* Second part over */
@@ -161,3 +162,30 @@ button {
     
 }
 
+
+.call {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    height: 30vh;
+    padding: 30px;
+}
+
+
+.call-signup {
+    background-color: #3882f6;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-signup button {
+    border-color: white;
+}
