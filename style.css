@@ -85,6 +85,7 @@ button {
 
 .hero {
     background-color: #1f2937;
+    flex: 1 1 0;
 }
 
 /* Second part over */
@@ -98,6 +99,7 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    flex: 1 1 0;
 
 }
 
@@ -129,3 +131,33 @@ button {
     color: darkgray;
     width: 150px;
 }
+
+/* Third part end */
+
+
+/* Fourth part */
+
+.quote-section {
+    flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh;
+}
+
+.quote {
+    width: 600px;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.author {
+    align-self:  center;
+    font-size: bold;
+    margin-left: 50%;
+    font-weight: bold;
+    
+}
+
